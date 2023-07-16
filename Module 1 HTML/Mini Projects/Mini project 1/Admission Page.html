@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <style>
+        body {
+            background-color: azure
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Admission Form</h1>
+    <form>
+        First Name:
+        <input type="text" name="First Name" maxlength="30">
+        <br><br>
+        Middle Name:
+        <input type="text" name="Middle Name" maxlength="30">
+        <br><br>
+        Last Name:
+        <input type="text" name="Last Name" maxlength="30">
+        <br><br>
+        Email:
+        <input type="email">
+        Phone number:
+        <input type="tel" name="Phone number" maxlength="10">
+        <br><br>
+        Date of Birth:
+        <input type="date" name="Date of Birth">
+        <br><br>
+        Gender:<br>
+        <input type="radio" name="Gender" value="Male">Male<br>
+        <input type="radio" name="Gender" value="Female">Female<br>
+        <input type="radio" name="Gender" value="Other">Other<br><br>
+        10th Reg.No.:
+        <input type="text" name="10 Std Reg.No.">
+        10th percentage(In case of Cgpa convert into percentage):
+        <input type="text" name="10th percentage(In case of Cgpa convert into percentage)" maxlength="3">
+        <br><br>
+        10th Year of Passing:
+        <input type="date" name="Year of Passing">
+        <br><br>
+        12th Reg.No.:
+        <input type="text" name="12 Std Reg.No.">
+        12th percentage(In case of Cgpa convert into percentage):
+        <input type="text" name="12th percentage(In case of Cgpa convert into percentage)" maxlength="3">
+        <br><br>
+        12th Year of Passing:
+        <input type="date" name="Year of Passing">
+        <br><br>
+        Degree Percentage (Only for completed degree & not for 12 Std):
+        <input type="text" name="Degree Percentage(If you choosen B.E program then ignore)" maxlength="3">
+        <br><br>
+        Degree Year of Passing:
+        <input type="date" name="Year of Passing">
+        <br><br>
+        Program:<br>
+        <input type="radio" name="Degree" value="B.E">B.E<br>
+        <input type="radio" name="Degree" value="MBA">MBA<br><br>
+        Specialization for B.E<br>
+        <select name="Specialization for B.E">
+            <option value="Choose Specialization">Choose Specialization</option>
+            <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+            <option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+        </select><br><br>
+        Specialization for MBA<br>
+        <select name="Specialization for MBA">
+            <option value="Choose Specialization">Choose Specialization</option>
+            <option value="Marketing Management">Marketing Management</option>
+            <option value="Financial management">Financial management</option>
+            <option value="Human Resource Management">Human Resource Management</option>
+        </select>
+        <br><br>
+        User Id:
+        <input type="text" name="User Id">
+        <br><br>
+        Password for student login:
+        <input type="password" maxlength="15">
+        <br><br>
+        Confirm Password:
+        <input type="password" maxlength="15">
+        <br><br>
+
+        <input type="button" value="Submit" onclick="alert('Your Admission form is submitted')">
+        <input type="button" value="Reset">
+    </form>
+
+</body>
+
+</html>
