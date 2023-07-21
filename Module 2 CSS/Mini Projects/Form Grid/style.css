@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    font-family: Arial;
+}
+
+h1 {
+    margin-left: 200px;
+    text-align: center;
+
+}
+
+
+.background-image {
+    background-image: url("sales\ inquiry\ women\ background\ image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    filter: blur(2px);
+    opacity: 0.8;
+}
+
+.content {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+
+.header-text {
+    color: white;
+    line-height: 1.8;
+}
+
+#text {
+    margin-left: 80px;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    height: 90%;
+}
+
+.fgroup {
+    padding-top: 2%;
+    box-sizing: border-box;
+    line-height: 1;
+    text-align: justify;
+}
+
+label {
+    width: 140px;
+    margin-left: 5%;
+    margin: 0.2cm;
+}
+
+input {
+    width: 33%;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 10px;
+    
+}
+
+.first{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.sixth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.seventh{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    position: relative;
+}
+
+#inquiry-box {
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.button-align {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+button {
+    margin-top: 1%;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 1%;
+    margin-left: 35%;
+    color: white;
+}
