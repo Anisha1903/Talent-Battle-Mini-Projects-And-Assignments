@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Inquiry Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="grid-wrapper">
+        <div class="background-image"></div>
+    </div>
+
+    <div class="content">
+        <div class="header-text">
+            <h1>
+                SALES INQUIRY FORM
+            </h1>
+            <p id="text">If you have any queries on Sales please take a moment to fill up this form and one
+                of
+                our sales
+                representative will contact you soon.</p>
+        </div>
+
+
+        <div class="form">
+
+            <form action="abc.php">
+
+                <div class="fgroup">
+                    <div class="first">
+                        <label class="align" for="name">Name : </label>
+                        <input type="text" name="name" required>
+
+                        <label for="organization">Organization :</label>
+                        <input type="text" name="organization" required>
+                        <br><br>
+                    </div>
+
+                    <div class="second">
+
+                        <label for="email">E-Mail : </label>
+                        <input type="email" name="email" required>
+
+                        <label for="contact">Contact No : </label>
+                        <input type="tel" name="contact" required>
+                        <br><br><br>
+
+                    </div>
+                    <div class="third">
+
+                        <label for="mobile">Mobile No :</label>
+                        <input type="tel" name="mobile" required>
+
+                        <label for="fax">Fax :</label>
+                        <input type="text" name="fax">
+                        <br><br><br>
+
+                    </div>
+
+                    <div class="fourth">
+
+                        <label for="address1">Address 1 :</label>
+                        <input type="text" name="address1" required>
+
+                        <label for="address2">Address 2 :</label>
+                        <input type="text" name="address2" required>
+                        <br><br><br>
+                    </div>
+
+                    <div class="fifth">
+
+                        <label for="country">Country :</label>
+                        <input type="text" name="country" required>
+
+                        <label for="state">State :</label>
+                        <input type="text" name="state" required>
+                        <br><br><br>
+
+                    </div>
+
+                    <div class="sixth">
+
+                        <label for="city">City :</label>
+                        <input type="text" name="city" required>
+
+                        <label for="zipcode">Zip/Pin Code :</label>
+                        <input type="text" name="zipcode" required>
+                        <br><br><br>
+
+                    </div>
+
+                    <div class="seventh">
+
+                        <label for="salesInquiry">Sales Inquiry :</label>
+                        <textarea id="inquiry-box" rows="6" required></textarea>
+                        <br><br><br>
+                    </div>
+                    <div class="button-align">
+                        <button style="background-color: rgb(248, 42, 77);" type="submit">SUBMIT</button>
+                        <button style="background-color: rgb(42, 42, 216);" type="reset">RESET</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+        <footer>
+            <center>© 2023 Sales Inquiry Form. All rights reserved | Developed by <b style="color: white;">Anisha
+                    M</b></center>
+        </footer>
+
+    </div>
+</body>
+
+</html>
