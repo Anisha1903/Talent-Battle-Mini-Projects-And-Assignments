@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballon</title>
+    <style>
+        #ballon {
+            background-color: tomato;
+            border-radius: 100%;
+            position: relative;
+            width: 90px;
+            height: 90px;
+            margin: 90px 0px 0px 230px;
+            animation-name: sample;
+            animation-duration: 3s;
+            animation: sample 5s linear;
+    
+        }
+
+        @keyframes sample {
+            0% {
+                top: 0px;
+                left: 140px;
+            }
+
+            50% {
+                top: 140px;
+                left: 180px;
+                right: 100px;
+            }
+            100% {
+                top: 280px;
+                left: 320px;
+            }
+        }
+
+        div {
+            background-color: blue;
+            width: 160px;
+            height: 130px;
+            padding: 5px;
+        }
+
+        .square1 {
+            margin: 0px 0px 0px 200px;
+        }
+
+        .square2 {
+            margin: 0px 0px 0px 368px;
+        }
+
+        .square3 {
+            margin: 0px 0px 0px 536px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ballon"></div>
+    <div class="square1"></div>
+    <div class="square2"></div>
+    <div class="square3"></div>
+</body>
+
+</html>
