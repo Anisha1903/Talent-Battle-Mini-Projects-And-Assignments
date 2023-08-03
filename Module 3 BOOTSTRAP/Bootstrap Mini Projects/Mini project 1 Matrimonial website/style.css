@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.social-media {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.images-carousel img{
+    height: 527px;
+}
+
+div span{
+    color: red;
+}
+
+.foot{
+    margin-top: 30px;
+    background-color: lightgray;
+    color: #666666;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 8px;
+    text-align: center;
+}
+
+.help{
+    margin-left: 60px;
+}
+
+.box button{
+    margin-top: 30px;
+}
