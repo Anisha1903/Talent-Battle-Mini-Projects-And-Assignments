@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/index.html#">Personal Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/index.html#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/Education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- background -->
+
+    <div class="contact-background">
+        <img src="images/contact us.avif" alt="">
+    </div>
+
+
+    <!-- breadcrumb -->
+
+    <nav style="--bs-breadcrumb-divider: '>'; margin-top: 20px; margin-left: 50px;" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="http://127.0.0.1:5500/Contact.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        </ol>
+    </nav>
+
+    <!-- contact -->
+
+    <div class="contact">
+        <h1><i class="far fa-address-card"></i> Contact Me</h1>
+
+
+        <div class="contact-info">
+            <div class="row">
+                <div class="col-6">
+                    <form class="contact-form">
+                        <input type="text" id="name" name="name"  placeholder="Your Name" required>
+                        <input id="input-email" name="email" type="text" placeholder="Your Email" required>
+                        <textarea id="input-message" name="input-message" rows="2" cols="40" placeholder="Message"
+                            required></textarea>
+                        <button type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="contact-address">
+                        <h4>Get In Touch</h4>
+                        <p style="padding: 4px;">Hello Amazing Person Thank you for Checking out My Website if you wish
+                            to Contact Me here are
+                            my
+                            Personal Details. Drop me an Email And I Will Contact You. Have a Nice Day :)</p>
+
+                        <h4>Contact Information</h4>
+                        <div class="space">
+                            <p><i class="fa-solid fa-location-dot"></i> <span style="margin-left: 5px;"> Davangere,
+                                    Karnataka</span> </p>
+
+                            <p><i class="fa-solid fa-mobile-screen-button"></i> <span
+                                    style="margin-left: 5px;">7483137306</span></p>
+
+                            <i class="fa-solid fa-envelope"></i> <a href="mailto:anisham0219@gmail.com"
+                                subject="subject text" style="text-decoration: none; color: white;"><span
+                                    style="margin-left: 5px;">anisham0219@gmail.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+
+        <div class="foot2">
+            <footer>© Anisha M Bootstrap Personal Blog</footer>
+        </div>
+</body>
+
+</html>
