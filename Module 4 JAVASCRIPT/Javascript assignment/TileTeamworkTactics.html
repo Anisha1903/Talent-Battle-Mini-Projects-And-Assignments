@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TileTeamworkTactics</title>
+</head>
+
+<body>
+    <script>
+        const possibleBonus = (a, b) => {
+            let player1 = a;
+            let player2 = b;
+            for (let i = 1; i <= 6; i++) {
+                player1 = player1 + 1;
+                if (player1 === player2) {
+                    document.write("Possibility of Bonus " + true + "<br>");
+                    return true;
+                }
+
+            }
+            document.write("Possibility of Bonus " + false + "<br>");
+            return false;
+        };
+
+        possibleBonus(3, 7);
+        possibleBonus(1, 9);
+        possibleBonus(5, 3);
+    </script>
+</body>
+
+</html>
