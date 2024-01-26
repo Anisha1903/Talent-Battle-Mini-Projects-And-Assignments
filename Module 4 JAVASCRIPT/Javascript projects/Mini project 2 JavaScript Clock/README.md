@@ -5,4 +5,4 @@
 - Contains an analog and digital clock.
 - Shows the current date and time.
 
-## Live Demo - [Link](https://65896a66e78d19d6d3c17f9b--vocal-fox-3b5ba4.netlify.app/)
+## Live Demo - [link](https://65896a66e78d19d6d3c17f9b--vocal-fox-3b5ba4.netlify.app/)
